@@ -1,4 +1,5 @@
 # DIABETES PREDICTION USING R
+# (Logistic regression)
 diabetes<-read.csv("C:/Users/EDWIN/Desktop/Projects/Diabetes/diabetes.csv")
 View(diabetes)
 # Object names
