@@ -30,7 +30,7 @@ panel.cor<-function(x,y,digits=3,prefix="",cex.cor, ...){
   if(missing(cex.cor)){
     cex.cor<-0.4/strwidth(txt)
   }
-  text(0.5,0.5, txt,
+  text(0.5, 0.5, txt,
        cex=1+cex.cor*Cor)
 }
 pairs(train_data,
