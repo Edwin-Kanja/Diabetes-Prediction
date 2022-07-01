@@ -47,7 +47,7 @@ summary(model)#Alternative is step.1 below
 
 # STEPWISE METHOD. consider the variable with lowest p-value
 # Step.1
-summary(glm(Outcome~Pregnancies,data= train_data))
+summary(glm(Outcome ~ Pregnancies,data= train_data))
 summary(glm(Outcome~Glucose,data=train_data))
 summary(glm(Outcome~BloodPressure,data= train_data))
 summary(glm(Outcome~SkinThickness,data= train_data))
